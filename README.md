@@ -15,6 +15,6 @@
 
 ``` 
 
-then, please access localhost and open several window.
+then, please access localhost and open several window.  
 Enjoy chatting with only one person ^^
 #
