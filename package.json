@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon ./server.js",
     "debug": "nodemon --inspect ./server.js",
-    "test": "mocha --recursive './test/*Test.js' --compilers js:babel-core/register",
+    "test": "mocha --recursive ./test/*Test.js --require babel-core/register",
     "migrate/init": "npx db-migrate db:create test",
     "migrate/up": "npx db-migrate up",
     "migrate/down": "npx db-migrate down",
